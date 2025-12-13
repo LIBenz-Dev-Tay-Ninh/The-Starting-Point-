@@ -1,2 +1,33 @@
-# Journey-with-Projects-
-Hành Trình Học Tập &amp; Những Dự Án Đầu Tiên l
+# Hành Trình Học Tập & Dự Án Đầu Tiên
+
+👋 Xin chào! Đây là repository ghi lại **hành trình học tập** và những **dự án đầu tiên** của tôi trong tổ chức [LiBenz Dev Tây Ninh](https://github.com/LiBenz-Dev-TayNinh).
+
+## 🎯 Mục tiêu
+- Lưu giữ quá trình học tập, nghiên cứu và thực hành lập trình.  
+- Tạo môi trường mở để cộng đồng có thể theo dõi và đóng góp.  
+- Phát triển các dự án nhỏ, tiện ích miễn phí phục vụ người dùng cuối.  
+
+## 📂 Nội dung
+Repository sẽ bao gồm:
+- **Nhật ký học tập**: ghi chú, bài tập, kinh nghiệm.  
+- **Mini-projects**: các dự án nhỏ như ứng dụng To-do list, máy tính, trò chơi đơn giản.  
+- **Ý tưởng phát triển**: danh sách các dự án mong muốn thực hiện trong tương lai.  
+
+## 🌱 Dự án khởi đầu
+- `python-exercises`: Thực hành Python từ cơ bản đến nâng cao.  
+- `todo-app`: Ứng dụng quản lý công việc đơn giản.  
+- `markdown-notes`: Công cụ ghi chú bằng Markdown.  
+
+## 🤝 Đóng góp
+Mọi người có thể:
+- Gửi pull request với bài tập, ý tưởng hoặc dự án mới.  
+- Đề xuất cải tiến cho các mini-projects.  
+- Chia sẻ kinh nghiệm học tập để cùng nhau phát triển.  
+
+## 📫 Liên hệ
+- Chủ sở hữu: **Lý Công Khanh (LiBenz)**  
+- Email: nguyenvu.optr@outlook.com.vn  
+
+---
+
+✨ *Hành trình mới chỉ bắt đầu, hãy cùng nhau học tập và tạo ra những sản phẩm hữu ích!*
