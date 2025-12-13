@@ -7,16 +7,17 @@
 - Tạo môi trường mở để cộng đồng có thể theo dõi và đóng góp.  
 - Phát triển các dự án nhỏ, tiện ích miễn phí phục vụ người dùng cuối.  
 
-## 📂 Nội dung
-Repository sẽ bao gồm:
-- **Nhật ký học tập**: ghi chú, bài tập, kinh nghiệm.  
-- **Mini-projects**: các dự án nhỏ như ứng dụng To-do list, máy tính, trò chơi đơn giản.  
-- **Ý tưởng phát triển**: danh sách các dự án mong muốn thực hiện trong tương lai.  
+## 📂 Cấu trúc repository
+- **README.md**: Giới thiệu tổng quan về repo.  
+- **notes/**: Nhật ký học tập, ghi chú, tài liệu.  
+- **exercises/**: Các bài tập thực hành theo từng chủ đề/ngôn ngữ.  
+- **projects/**: Mini-projects để áp dụng kiến thức.  
+- **ideas/**: Ý tưởng dự án tương lai và đề xuất từ cộng đồng.  
 
 ## 🌱 Dự án khởi đầu
-- `python-exercises`: Thực hành Python từ cơ bản đến nâng cao.  
-- `todo-app`: Ứng dụng quản lý công việc đơn giản.  
-- `markdown-notes`: Công cụ ghi chú bằng Markdown.  
+- `exercises/python`: Bài tập Python từ cơ bản đến nâng cao.  
+- `projects/todo-app`: Ứng dụng quản lý công việc đơn giản.  
+- `projects/calculator`: Máy tính nhỏ trên web hoặc console.  
 
 ## 🤝 Đóng góp
 Mọi người có thể:
