@@ -1,0 +1,68 @@
+# Todo App - Console version
+# Lý Công Khanh (LiBenz)
+
+todos = []
+
+def show_menu():
+    print("\n=== TODO APP ===")
+    print("1. Thêm công việc")
+    print("2. Xóa công việc")
+    print("3. Đánh dấu hoàn thành")
+    print("4. Hiển thị danh sách")
+    print("5. Thoát")
+
+def add_task():
+    task = input("Nhập công việc mới: ")
+    todos.append({"task": task, "done": False})
+    print("✅ Đã thêm công việc!")
+
+def delete_task():
+    show_tasks()
+    try:
+        index = int(input("Nhập số thứ tự công việc cần xóa: ")) - 1
+        if 0 <= index < len(todos):
+            removed = todos.pop(index)
+            print(f"🗑️ Đã xóa: {removed['task']}")
+        else:
+            print("❌ Số thứ tự không hợp lệ.")
+    except ValueError:
+        print("❌ Vui lòng nhập số.")
+
+def mark_done():
+    show_tasks()
+    try:
+        index = int(input("Nhập số thứ tự công việc đã hoàn thành: ")) - 1
+        if 0 <= index < len(todos):
+            todos[index]["done"] = True
+            print(f"✔️ Đã hoàn thành: {todos[index]['task']}")
+        else:
+            print("❌ Số thứ tự không hợp lệ.")
+    except ValueError:
+        print("❌ Vui lòng nhập số.")
+
+def show_tasks():
+    if not todos:
+        print("📭 Danh sách công việc trống.")
+    else:
+        print("\n📋 Danh sách công việc:")
+        for i, todo in enumerate(todos, start=1):
+            status = "✔️" if todo["done"] else "⏳"
+            print(f"{i}. {todo['task']} {status}")
+
+# Chạy ứng dụng
+while True:
+    show_menu()
+    choice = input("Chọn chức năng (1-5): ")
+    if choice == "1":
+        add_task()
+    elif choice == "2":
+        delete_task()
+    elif choice == "3":
+        mark_done()
+    elif choice == "4":
+        show_tasks()
+    elif choice == "5":
+        print("👋 Thoát ứng dụng. Hẹn gặp lại!")
+        break
+    else:
+        print("❌ Lựa chọn không hợp lệ, vui lòng thử lại.")
